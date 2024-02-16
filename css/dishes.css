@@ -1,0 +1,134 @@
+.dishes__title{
+    margin: 100px 0 20px ;
+    font-size: 54px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.dishes__desc{
+    margin-bottom: 50px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.dishes__cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.dishes__card{
+    display: flex;
+    max-width: 31%;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid #EBEBEB;
+    border-radius: 20px;
+}
+
+.dishes__card img{
+    width: 90%;
+}
+.dishes__card_title{
+    text-align: center;
+    color: var(--primary-black);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.dishes__card_desc{
+    text-align: center;
+    color: var(--desc-color);
+    font-size: 18px;
+}
+.btn_dish{
+  display: flex;
+  justify-content: center;
+  margin: 60px auto 100px auto;
+}
+
+
+@media (max-width:800px) {
+    .dishes__title {
+            font-size: 44px;
+            text-align: center;
+            font-weight: 700;
+        }
+    
+        .dishes__desc {
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .dishes__card_title {
+            text-align: center;
+            color: var(--primary-black);
+            font-size: 20px;
+            font-weight: 500;
+        }
+    
+        .dishes__card_desc {
+            text-align: center;
+            color: var(--desc-color);
+            font-size: 10px;
+        }
+}
+
+@media (max-width:600px) {
+    .dishes__cards {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+        }
+
+    .dishes__card{
+        max-width: 70%;
+    }
+    .dishes__title{
+         font-size: 34px;
+    }
+        .dishes__desc {
+            font-size: 14px;
+            text-align: center;
+        }
+    .dishes__card_title{
+        font-size: 30px;
+    }
+    .dishes__card_desc{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:500px) {
+    .dishes__cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .dishes__card {
+        max-width: 70%;
+    }
+
+    .dishes__title {
+        font-size: 28px;
+    }
+
+    .dishes__desc {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .dishes__card_title {
+        font-size: 24px;
+    }
+
+    .dishes__card_desc {
+        font-size: 14px;
+    }
+}
